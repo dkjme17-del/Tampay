@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "249114658216",
+    "project_id": "tampay-6154b",
+    "storage_bucket": "tampay-6154b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249114658216:android:4647b69d8146b5a740899d",
+        "android_client_info": {
+          "package_name": "com.example.applicationweb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC19fF87gKVIFD78QBC53Gi0O-yf49nXqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

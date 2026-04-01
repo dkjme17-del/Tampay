@@ -1,0 +1,36 @@
+# Misc
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Flutter / Dart
+.dart_tool/
+.pub-cache/
+.pub/
+build/
+coverage/
+
+# Android
+android/.gradle/
+android/app/build/
+
+# iOS
+ios/Pods/
+
+# 🔴 IMPORTANT (AJOUTÉS)
+*.apk
+*.aab
+*.zip
+*.tar
+*.rar
+
+# Cache / Temp
+*.tmp
+*.cache

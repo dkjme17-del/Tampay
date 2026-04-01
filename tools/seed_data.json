@@ -1,0 +1,50 @@
+{
+  "users": [
+    {
+      "id": "admin",
+      "phone": "+221000000000",
+      "name": "Administrator",
+      "role": "admin",
+      "zone": "central",
+      "created_at": {"_seconds": 0}
+    }
+  ],
+  "taxes": [
+    {
+      "id": "tax-1",
+      "name": "Taxe foncière",
+      "description": "Taxe annuelle foncière",
+      "amount": 10000,
+      "category": "fonciere",
+      "zone": "central",
+      "created_at": {"_seconds": 0}
+    }
+  ],
+  "payments": [
+    {
+      "id": "payment-sample-1",
+      "user_id": "admin",
+      "tax_id": "tax-1",
+      "amount": 10000,
+      "status": "completed",
+      "payment_method": "mobile_money",
+      "transaction_id": "tx-sample-1",
+      "qr_code": "",
+      "verification_code": "VERIF123",
+      "verified_at": {"_seconds": 0},
+      "verified_by": "admin",
+      "created_at": {"_seconds": 0}
+    }
+  ],
+  "audit_logs": [
+    {
+      "id": "log-1",
+      "user_id": "admin",
+      "action": "seed",
+      "entity_type": "system",
+      "entity_id": "",
+      "changes": {},
+      "created_at": {"_seconds": 0}
+    }
+  ]
+}
