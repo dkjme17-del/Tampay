@@ -34,3 +34,5 @@ ios/Pods/
 # Cache / Temp
 *.tmp
 *.cache
+
+serviceAccountKey.json
